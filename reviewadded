@@ -1,5 +1,5 @@
-# Save both the PUT command and its output to reviewadded
+# Save both the DELETE command and its output to deletereview
 (
-  echo 'curl -X PUT "http://localhost:3000/review/1" -H "Content-Type: application/json" -d "{\"username\":\"newuser\",\"review\":\"Great book!\"}"'
-  curl -X PUT "http://localhost:3000/review/1" -H "Content-Type: application/json" -d '{"username":"newuser","review":"Great book!"}'
-) > reviewadded
+  echo 'curl -i -X DELETE "http://localhost:3000/review/1" -H "Content-Type: application/json"'
+  curl -i -X DELETE "http://localhost:3000/review/1" -H "Content-Type: application/json"
+) > deletereview
