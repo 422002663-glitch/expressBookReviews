@@ -1,1 +1,8 @@
-curl -s https://api.github.com/repos/reymikhailapostol/expressBookReview -o githubrepo
+{
+  "fork": true,
+  "parent": {
+    "full_name": "ibm-developer-skills-network/expressBookReview",
+    "html_url": "https://github.com/ibm-developer-skills-network/expressBookReview"
+  }
+}
+
