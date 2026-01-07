@@ -1,1 +1,20 @@
 curl -s "https://openlibrary.org/search.json?author=Roald%20Dahl" -o getbooksbyauthor
+{
+  "numFound": 365,
+  "docs": [
+    {
+      "title": "Matilda",
+      "author_name": ["Roald Dahl"],
+      "first_publish_year": 1988,
+      "isbn": ["9780140328721", "0140328726"]
+    },
+    {
+      "title": "Charlie and the Chocolate Factory",
+      "author_name": ["Roald Dahl"],
+      "first_publish_year": 1964,
+      "isbn": ["9780142410318", "0142410315"]
+    }
+    // more books...
+  ]
+}
+
