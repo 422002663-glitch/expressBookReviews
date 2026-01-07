@@ -1,0 +1,18 @@
+{
+  "numFound": 37,
+  "docs": [
+    {
+      "title": "Matilda",
+      "author_name": ["Roald Dahl"],
+      "first_publish_year": 1988,
+      "isbn": ["9780140328721", "0140328726"]
+    },
+    {
+      "title": "Matilda's Cat",
+      "author_name": ["Emily Gravett"],
+      "first_publish_year": 2002,
+      "isbn": ["9780763621055"]
+    }
+    // more books...
+  ]
+}
