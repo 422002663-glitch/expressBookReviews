@@ -1,8 +1,5 @@
-{
-  "fork": true,
-  "parent": {
-    "full_name": "ibm-developer-skills-network/expressBookReview",
-    "html_url": "https://github.com/ibm-developer-skills-network/expressBookReview"
-  }
-}
-
+# Save both the command and its output to githubrepo
+(
+  echo "curl -s https://api.github.com/repos/reymikhailapostol/expressBookReview | jq '.parent.full_name'"
+  curl -s https://api.github.com/repos/reymikhailapostol/expressBookReview | jq '.parent.full_name'
+) > githubrepo
