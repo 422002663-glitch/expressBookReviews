@@ -1,1 +1,5 @@
-curl -s "https://openlibrary.org/api/books?bibkeys=ISBN:9780140328721&format=json&jscmd=data" -o getbooksbyLSBN
+# Save both the GET command and its output to getbooksbyISBN
+(
+  echo 'curl -i -X GET "http://localhost:3000/books/ISBN/9780140328721"'
+  curl -i -X GET "http://localhost:3000/books/ISBN/9780140328721"
+) > getbooksbyISBN
