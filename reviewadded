@@ -1,0 +1,4 @@
+curl -s -X POST https://example.com/api/reviews \
+-H "Content-Type: application/json" \
+-d '{"username": "newuser", "bookId": "12345", "review": "This book is amazing!"}' \
+-o reviewadded
