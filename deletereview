@@ -1,0 +1,1 @@
+curl -s -X DELETE https://example.com/api/reviews/12345 -o deletereview
