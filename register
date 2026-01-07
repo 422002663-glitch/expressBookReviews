@@ -1,0 +1,4 @@
+curl -s -X POST https://example.com/api/register \
+-H "Content-Type: application/json" \
+-d '{"username": "newuser", "email": "newuser@example.com", "password": "mypassword"}' \
+-o register
