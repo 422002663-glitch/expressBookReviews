@@ -1,4 +1,5 @@
-curl -s -X POST https://example.com/api/login \
--H "Content-Type: application/json" \
--d '{"username": "newuser", "password": "mypassword"}' \
--o login
+# Save both the POST command and its output to login
+(
+  echo 'curl -X POST http://localhost:3000/login -H "Content-Type: application/json" -d "{\"email\":\"newuser@example.com\",\"password\":\"Password123\"}"'
+  curl -X POST http://localhost:3000/login -H "Content-Type: application/json" -d '{"email":"newuser@example.com","password":"Password123"}'
+) > login
